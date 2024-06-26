@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link href="calculator.css" rel="stylesheet">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>☀calculator</title>
+</head>
+    <script>
+        let t=(prompt('whats PASSWORD ?'));
+            switch(t){
+                case '1qaz2wsx':
+             let a=prompt('whats your name?')
+        alert('hi '+a)
+        let b=parseFloat(prompt("the first number : "));
+        let c=prompt("(+)(*)(/)(-)(power)(sqrt)");
+        let d=parseFloat(prompt("the socond number :"));
+        if(c=='+'){
+            alert(b+'+'+d+'= '+(b+d))
+        }
+        else if(c=='*'){
+            alert(b+'*'+d+'= '+(b*d))  
+        }
+        else if(c=='/'){
+            alert(b+'/'+d+'= '+(b/d))
+        }
+        else if(c=='-'){
+            alert(b+'-'+d+'= '+(b-d))
+        }
+        else if(c=='power'){
+            alert(b+'power of'+d+'= '+(Math.pow(b,d)));
+        }
+        else if(c=='sqrt'){
+            alert(b+'sqrt of'+d+"="+(Math.sqrt(b,d)));
+        }
+        else{
+            alert('wrong inputg')
+        }
+        break;
+        default : alert('wrong password')
+        }
+        
+        
+    </script>
+
+    <a href="calculator.html"><img src="images/IMG_20240623_134529_928.jpg" title="redooooooooooooooooooooooo"
+        width="200"height='100' ></a>
+
+</body>
+</html>
